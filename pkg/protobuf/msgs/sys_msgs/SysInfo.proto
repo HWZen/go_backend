@@ -1,0 +1,15 @@
+
+// generated automatically by ros_hybrid_protoc on  Thu Apr  6 19:56:18 2023
+// Do not Edit!
+// wrapping message: sys_msgs/SysInfo
+
+syntax = "proto3";
+
+package hybrid.sys_msgs;
+
+message SysInfo{
+    string host_name = 1;
+    string system_type = 2;
+    string system_version = 3;
+
+}

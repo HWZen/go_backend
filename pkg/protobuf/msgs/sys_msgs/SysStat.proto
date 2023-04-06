@@ -1,0 +1,14 @@
+
+// generated automatically by ros_hybrid_protoc on  Fri Feb 24 15:30:21 2023
+// Do not Edit!
+// wrapping message: sys_msgs/SysStat
+
+syntax = "proto3";
+
+package hybrid.sys_msgs;
+
+message SysStat{
+    float cpu_percent = 1;
+    float mem_percent = 2;
+
+}

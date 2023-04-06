@@ -1,0 +1,16 @@
+
+// generated automatically by ros_hybrid_protoc on  Thu Apr  6 19:10:10 2023
+// Do not Edit!
+// wrapping message: sys_msgs/SysInfoStat
+
+syntax = "proto3";
+
+import "msgs/sys_msgs/SysStat.proto";
+import "msgs/sys_msgs/SysInfo.proto";
+package hybrid.sys_msgs;
+
+message SysInfoStat{
+    sys_msgs.SysInfo info = 1;
+    sys_msgs.SysStat stat = 2;
+
+}
